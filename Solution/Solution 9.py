@@ -1,0 +1,9 @@
+n=int(input("Enter any Number:"))
+m=n
+sum=0
+r=0
+while n!=0:
+     r=n%10 
+     sum=sum+r
+     n=n//10
+print("The sum of {} is {}.".format(m,sum))
